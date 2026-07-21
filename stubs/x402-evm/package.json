@@ -1,0 +1,16 @@
+{
+  "name": "@x402/evm",
+  "version": "0.0.0-stub",
+  "description": "Local stub for @coinbase/cdp-sdk optional peer dep. Not used by this app.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./exact/client": "./exact-client.js",
+    "./exact/server": "./exact-server.js",
+    "./exact/v1/client": "./exact-v1-client.js",
+    "./upto/client": "./upto-client.js",
+    "./upto/server": "./upto-server.js",
+    "./batch-settlement/client": "./batch-settlement-client.js"
+  }
+}

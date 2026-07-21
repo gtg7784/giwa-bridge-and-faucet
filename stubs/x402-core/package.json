@@ -1,0 +1,12 @@
+{
+  "name": "@x402/core",
+  "version": "0.0.0-stub",
+  "description": "Local stub for @coinbase/cdp-sdk optional peer dep. Not used by this app.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./server": "./server.js"
+  }
+}
