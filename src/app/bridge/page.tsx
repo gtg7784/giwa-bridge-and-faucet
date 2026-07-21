@@ -1,4 +1,18 @@
+import type { Metadata } from "next";
 import { BridgePanel } from "@/components/bridge/bridge-panel";
+
+export const metadata: Metadata = {
+  title: "Bridge",
+  description:
+    "Bridge ETH and ERC-20 between Sepolia (L1) and Giwa Sepolia (L2) with your own wallet. Deposits land in 1–3 minutes; withdrawals follow OP Stack prove + 7-day challenge.",
+  alternates: { canonical: "/bridge" },
+  openGraph: {
+    title: "Giwa Sepolia Bridge",
+    description:
+      "Sign with your own wallet to move ETH or ERC-20 between Sepolia (L1) and Giwa Sepolia (L2).",
+    url: "/bridge",
+  },
+};
 
 export default function BridgePage() {
   return (

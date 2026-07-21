@@ -1,4 +1,18 @@
+import type { Metadata } from "next";
 import { FaucetCard } from "@/components/faucet-card";
+
+export const metadata: Metadata = {
+  title: "Faucet",
+  description:
+    "Community-funded Giwa Sepolia faucet. Donate Sepolia ETH — bridged to L2 daily at 00:00 KST — and request a small drip on demand.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Giwa Sepolia Faucet",
+    description:
+      "Community-funded Giwa Sepolia faucet. Donate Sepolia ETH and request testnet ETH on L2.",
+    url: "/",
+  },
+};
 
 export default function Home() {
   return (
